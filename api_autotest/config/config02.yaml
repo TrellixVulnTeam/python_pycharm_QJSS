@@ -1,0 +1,4 @@
+logger:
+  name: CJH
+  level: DEBUG
+  format: '%(name)s-%(filename)s-%(funcName)s-%(lineno)d-%(asctime)s-%(levelname)s-%(message)s'
