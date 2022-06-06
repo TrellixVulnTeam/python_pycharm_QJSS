@@ -18,8 +18,9 @@ driver.quit()
 
 '''
 driver = webdriver.Chrome()
-driver.get('http://www.baicu.com')
+driver.get('http://www.baidu.com')
 time.sleep(2)
 driver.find_element_by_id('kw').send_keys('百度')
 driver.find_element_by_id('su').click()
+time.sleep(5)
 driver.quit()
