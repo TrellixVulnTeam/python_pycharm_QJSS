@@ -1,0 +1,37 @@
+1655196462681	geckodriver	INFO	Listening on 127.0.0.1:64945
+1655196464729	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1655196464750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofileBZZ14j"
+1655196466926	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofileBZZ14j\\search.json.mozlz4", (void 0)))
+1655196498436	Marionette	INFO	Listening on port 65092
+Read port: 
+1655196498457	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 65092
+1655196498751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655196611471	Marionette	INFO	Stopped listening on port 65092
+1655196811627	geckodriver	INFO	Listening on 127.0.0.1:54494
+1655196813618	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1655196813641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofile1zN9e6"
+1655196814771	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofile1zN9e6\\search.json.mozlz4", (void 0)))
+1655196840932	Marionette	INFO	Listening on port 54618
+Read port: 54618
+1655196840955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655196946131	Marionette	INFO	Stopped listening on port 54618
+5196920601	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1655196920617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofile5MZQ5A"
+1655196921738	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofile5MZQ5A\\search.json.mozlz4", (void 0)))
+1655196946272	Marionette	INFO	Listening on port 54999
+Read port: 54999
+1655196946368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655196949218	Marionette	INFO	Stopped listening on port 54999
+1655196961744	geckodriver	INFO	Listening on 127.0.0.1:55053
+1655196963751	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1655196963765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofilef3B0xB"
+1655196964837	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TUNGEE\\AppData\\Local\\Temp\\rust_mozprofilef3B0xB\\search.json.mozlz4", (void 0)))
+1655196990738	Marionette	INFO	Listening on port 55171
+Read port: 55171
+1655196991423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655197041668	Marionette	INFO	Stopped listening on port 55171
