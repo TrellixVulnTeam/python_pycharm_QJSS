@@ -15,10 +15,9 @@ def sheet_method():
 # 找企业高筛获取企业id（entity_ids）
 url = 'https://sales-test.tangees.com/api/advance-search'
 headers = {
-    "Cookie":"DISTINCT_ID=a441cf24-6758-4c90-9675-bd0f807de112; __last_enter_version=sales; sessionId=.eJw1zjsKQjEQheG9pLbIZDLJxM3IPNFCkatW4t69IFan-Dnwvcspt3icy_G5veJQThcvx-KtCaUDeAjqnL3rtCZQrU5TI5fEEHceK3kGTjZmsQ4KtMfKvWlFVIQ6yXG_-75pGbTSotNoC8lSekJTqgNs2qqrKTddFGWH3GO7yi1uzz_t9Yjtxxs1hogoioMYGTJ7Mnn5fAHbTT1m.Fbk0bQ.hBa5aCH5ruHOG4lrfLeDFsspSbM; SecurityCenterDuId=IllON0ZMcFlFMjBlRWFycitGbFFHYVdRPSI.Fbk05A.5iX6D9iVvZ9KltsyjkpSuFetE2E; _co_i=623943dce572f06e41788438; marketingSessionId=eyJ1c2VyX2lkIjoiNjJiYTczNGNlNTcyZjAzYzU3NTdhNzhlIiwiX2ZyZXNoIjpmYWxzZX0.Yternw.nSzLS1TCIOCXKSU5n97C8kvIQYk; accountCenterSessionId=.eJw9js1Kw0AURt9l1l3Mnf_brVKp2AShEOIm3Jm5Y5QkQhOtRHx3g4Lbw_k-zpeYmHM30wd3y1uXo9gXGmbeie4li71gp0NwHhN5z5EcslWBTAzBB6WQMRkkjmx1AU6Wy8YdJpkg2WQITQaLG5OF2GFw0liApDVoo7S0QCa5AsW7GAATWCoS0aM3EcixL2In3me-_MU4lT1pZ9h6VaRROWiFYOUmdeXCc_8fP__67fr42TbHtbo7Lqc1D_WNlE_NYXxo7sf6_LzU59xXr6e1atprfVuN20_qaZp42MZXjuL7B-G5VLs.Fbk9Zg.41v-sK6oBlrxqTbIH4_iOM2PVIM; doncusSessionId=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiNjIzOTQzZGNlNTcyZjA2ZTQxNzg4NDNjIn0.Fbk9hQ.odchsLwDEJFE8l0dgP3wEkRV8CQ"
-
+    "Cookie":"DISTINCT_ID=a441cf24-6758-4c90-9675-bd0f807de112; __last_enter_version=sales-test; SecurityCenterDuId=IllON0ZMcFlFMjBlRWFycitGbFFHYVdRPSI.FdNl7Q.HXP0Wk5lgP_UJcINFBiozJRvjZ0; _co_i=623943dce572f06e41788438; sessionId=.eJw1zk0KQjEMBOC7dO2iSZqX1stI84cuFHnqSry7BXE1A8PA9y6n3ONxLsfn_opDOV28HIsjTk4H8JikIq2pGE6oVsXU2GdSTPe-jewSJN16n9ZAgddYe0OtREpQhZ3W3VemZfBIi8YbDmLL2RJQuW5gYqMO1I46OMqC3GO_zlvcnn_a6xH7j7cBAYty2hjea67amiCVzxfJkDwq.FdOi9g.sfCB7iEX35wda7-ntLJHbriPS7Q; accountCenterSessionId=.eJw9jt1KAzEQRt8l173I5GeS6XWLCK4FrZTuzTJJJrRuu0J3tRbx3V0UvD2c7-N8qUGkdCN_SDe9dSWpZeXTKAvVHYtaKkEbIwbKHIIkRhJvIrsUY4jGkFB2xJLE2wqSvdSZI2WdIfvsmFwBTzPTlQUponYeIFsL1hmrPbDLWKEGTBEog-eqiQIFl4BRQlUL9T7K5S8GTYXisIgPpmrQhckSgsxSVy8yHv7jx1-_XT0e27unfm_W02bb-_ZZ6_bcwMO2vzW7l2l_bm6b3f7avt7bZrX-nH_ygYdBTvP4Kkl9_wDwxFSC.FdOjMQ.VUAeQh_D2_wd1iwqstlj1a-1cMo"
 }
-payload = {"filter": "{\"must\":[{\"hasMobile\":[{\"not_exist\":\"1\"}]}]}", "relation": "0", "start": "400", "end": "450",
+payload = {"filter": "{\"must\":[{\"hasPhone\":[{\"exist\":\"1\"}]}]}", "relation": "0", "start": "460", "end": "480",
            "filter_advance_search_filter_pool": "1", "mode": "2"}
 res = requests.post(url, data=payload, headers=headers)
 # print(res.text)
