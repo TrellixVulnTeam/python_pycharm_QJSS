@@ -1,0 +1,5 @@
+2022-09-02 12:01:02,776 - main - Log.py[line:33] - INFO - log test----------
+2022-09-02 13:58:34,255 - main - Log.py[line:33] - INFO - log test----------
+2022-09-02 14:02:37,445 - main - Log.py[line:33] - INFO - log test----------
+2022-09-02 14:02:42,945 - main - Log.py[line:33] - INFO - log test----------
+2022-09-02 15:05:28,840 - main - Log.py[line:52] - INFO - log test----------

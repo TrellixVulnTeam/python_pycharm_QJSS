@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/api_autotest/log/log.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/autotest_demo/Comm/data.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/autotest_demo/main.py" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
